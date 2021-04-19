@@ -1,0 +1,184 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-05T15:49:02.446Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1550106600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "configuration.Hooks.beforeScenarioWeb()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validar integridade e a disponbilidade dos serviços",
+        "description": "",
+        "id": "validar-fluxo-do-site-vortx;validar-integridade-e-a-disponbilidade-dos-serviços",
+        "after": [
+          {
+            "result": {
+              "duration": 598272000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "configuration.Hooks.afterScenarioWeb(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "que estou logado no site Vortx",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "clico na sessão \"Investidor\" no menu superior do site",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "seleciono a opção \"Fundos de Investimento\" da sessão \"Investidor\"",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "seleciono o primeiro fundo da tela de \"Fundos de investimento\"",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 495400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "visualizo a tela \"Dashboard\"",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "salvo as informações do \"Dashboard\" em um arquivo",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "clico na aba \"Documentos\"",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "clico no card \"DEMONSTRAÇÃO FINANCEIRA\"",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "realizo o download",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "clico no botao \"Cota\"",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "insiro uma data no campo \"Data Inicio\"",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "insiro uma data no campo \"Data Final\"",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "clico no botao \"Atualizar\"",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "clico no botao \"Atualizar\"",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web"
+          },
+          {
+            "name": "@CT-001"
+          },
+          {
+            "name": "@sprint1"
+          }
+        ]
+      }
+    ],
+    "name": "validar fluxo do site Vortx",
+    "description": "",
+    "id": "validar-fluxo-do-site-vortx",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features.vortx/investidor.feature",
+    "tags": []
+  }
+]

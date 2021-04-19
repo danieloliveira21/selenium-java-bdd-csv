@@ -1,0 +1,175 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-06T15:44:58.628Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1600886300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "configuration.Hooks.beforeScenarioWeb()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Validar integridade e a disponbilidade dos serviços vortx",
+        "description": "",
+        "id": "validar-fluxo-do-site-vortx;validar-integridade-e-a-disponbilidade-dos-serviços-vortx",
+        "after": [
+          {
+            "result": {
+              "duration": 613150400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "configuration.Hooks.afterScenarioWeb(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1484321800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "que estou logado no site Vortx",
+            "match": {
+              "location": "steps.InvestidorStep.queEstouLogadoNoSiteVortx()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 167647500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "clico na sessão \"Investidor\" no menu superior do site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Investidor\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.InvestidorStep.clicoNaSessãoNoMenuSuperiorDoSite(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1452510700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "seleciono a opção \"Fundos de Investimento\" da sessão \"Investidor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fundos de Investimento\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Investidor\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.InvestidorStep.selecionoAOpçãoDaSessão(java.lang.String,java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1386929600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "seleciono o primeiro fundo da tela de \"Investidor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Investidor\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.InvestidorStep.selecionoOPrimeiroFundoDaTelaDe(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 164226000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "visualizo a tela \"Dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.InvestidorStep.visualizoATela(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 569074600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "visualizo as informaçoes na tela e salvo em um arquivo CSV",
+            "match": {
+              "location": "steps.InvestidorStep.visualizoAsInformaçoesNaTelaESalvoEmUmArquivoCSV()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1191141800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "clico na aba \"Documentos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Documentos\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.InvestidorStep.clicoNaAba(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web"
+          },
+          {
+            "name": "@CT-002"
+          },
+          {
+            "name": "@sprint1"
+          }
+        ]
+      }
+    ],
+    "name": "validar fluxo do site Vortx",
+    "description": "",
+    "id": "validar-fluxo-do-site-vortx",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features.vortx/investidor.feature",
+    "tags": []
+  }
+]
